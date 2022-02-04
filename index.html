@@ -35,57 +35,53 @@
 
       </ul>
     </nav>
-  </div>
 
+  <div class="bg-white container p-5 justify-content-center">
+    <div class="row gx-3 justify-content-between">
+      <div class="col-md-4">
 
-  <div class="p-5 mb-4 bg-white rounded-3" style="margin-top:100px">
-    <div class="container-fluid py-5">
-
-      <div class="row gx-1">
-        <div class="col-md">
-
-          <h1 class="display-5 fw-bold">
-            <i class="fa fa-arrow-circle-down fa-1x icon-feature text-gradient d-block mb-3"></i>Fetch your
-            dependencies.
-          </h1>
-          <p class="col-md-8 fs-4 text-muted"><em>DFetch</em> makes it easy to reuse source code, without requiring
-            any build system, package manager or version control system. Copy-paste on steroids!</p>
-          <a class="btn btn-primary btn-lg" href="https://github.com/dfetch-org/dfetch/releases/latest" role="button">
-            <i class="fa fa-github fa-1x icon-feature"></i>
-            Install
-          </a>
-        </div>
-        <div class="col-md mb-5">
-          <img class="img-fluid shadow-xl" style="margin:20px" src="example-manifest.svg"></img>
-        </div>
-
+        <h1 class="display-5 fw-bold">
+          <i class="fa fa-arrow-circle-down fa-1x icon-feature text-gradient d-block mb-3"></i>Fetch your
+          dependencies.
+        </h1>
+        <p class="fs-4 text-muted"><em>DFetch</em> makes it easy to reuse source code, without requiring
+          any build system, package manager or version control system. Copy-paste on steroids!</p>
+        <a class="btn btn-primary btn-lg" href="https://github.com/dfetch-org/dfetch/releases/latest" role="button">
+          <i class="fa fa-github fa-1x icon-feature"></i>
+          Install
+        </a>
       </div>
+
+      <div class="col-md-6">
+        <img class="img-fluid shadow-xl" src="example-manifest.svg"></img>
+      </div>
+
     </div>
   </div>
 
-  <div class="p-5 mb-4 rounded-3 bg-secondary text-light">
-    <div class="container-fluid py-5">
 
-      <div class="row gx-1">
-        <div class="col-md-6 mb-5" style="margin:20px">
+  <div class="container-fluid p-5 mb-4 bg-secondary text-light">
 
-          <asciinema-player src="check.cast" speed="2" theme="solarized-dark" loop="loop" autoplay="true">
-          </asciinema-player>
+    <div class="row gx-3 justify-content-between">
+      <div class="col-md-4 mb-5">
 
-        </div>
-
-        <div class="col-md mb-5">
-
-          <h1 class="display-5 fw-bold">
-            <i class="fa  fa-check-square-o fa-1x icon-feature text-gradient d-block mb-3"></i>
-            Check for new versions.
-          </h1>
-          <p class="col-md-8 fs-4">Check for the latest version of your dependencies and <em>DFetch</em> will even
-            interpret the available tags.
-        </div>
+        <asciinema-player src="check.cast" speed="2" theme="solarized-dark" loop="loop" autoplay="true">
+        </asciinema-player>
 
       </div>
+
+      <div class="col-md-6 mb-5">
+
+        <h1 class="display-5 fw-bold">
+          <i class="fa  fa-check-square-o fa-1x icon-feature text-gradient d-block mb-3"></i>
+          Check for new versions.
+        </h1>
+        <p class="col-md-8 fs-4">Check for the latest version of your dependencies and <em>DFetch</em> will even
+          interpret the available tags.
+      </div>
+
     </div>
+
   </div>
 
 
@@ -141,7 +137,8 @@
             <i class="fa  fa-wrench fa-1x icon-feature text-gradient d-block mb-3"></i>
             Change locally & upstream changes.
           </h1>
-          <p class="col-md-8 fs-4">Customize the fetched dependency by applying patches, or generate a patch for upstreaming your fix and help others!
+          <p class="col-md-8 fs-4">Customize the fetched dependency by applying patches, or generate a patch for
+            upstreaming your fix and help others!
         </div>
 
         <div class="col-md-6 mb-5" style="margin:20px">
