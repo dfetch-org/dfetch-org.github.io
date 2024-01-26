@@ -8,6 +8,6 @@
 }
 
 .asciinema-player-wrapper {
-    text-align: left;
+    text-align: left !important;
     padding-bottom: 25px;
 }
