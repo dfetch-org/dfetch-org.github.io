@@ -116,7 +116,7 @@ body {
     ),
     radial-gradient(
       circle,
-      rgba(194, 98, 10, 0.15) 1.5px,
+      rgba(194, 98, 10, 0.30) 1.5px,
       transparent 1.5px
     );
   background-size: 100% 100%, 28px 28px;
@@ -337,6 +337,13 @@ a.sd-btn-secondary[href*="github.com"]:hover {
   transition: box-shadow var(--ease), transform var(--ease) !important;
   overflow: hidden !important;
   background: #fff !important;
+}
+
+/* Extra vertical separation between consecutive standalone (full-width) cards.
+   Grid item cards (.sd-col > .sd-card) are excluded. */
+:not(.sd-col) > .sd-card {
+  margin-top: 3.5rem !important;
+  margin-bottom: 3.5rem !important;
 }
 
 /* Hover lift — light cards only */
