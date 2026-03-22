@@ -11,7 +11,7 @@ body {
 
 
 div.document {
-    width: 940px;
+    width: 1400px;
     margin: 30px auto 0 auto;
 }
 
@@ -36,7 +36,7 @@ hr {
 
 div.body {
     background-color: #fff;
-    color: #3E4349;
+    color: #1c1917;
     padding: 0 30px 0 30px;
 }
 
@@ -45,7 +45,7 @@ div.body > .section {
 }
 
 div.footer {
-    width: 940px;
+    width: 1400px;
     margin: 20px auto 30px auto;
     font-size: 14px;
     color: #888;
@@ -189,12 +189,12 @@ div.sphinxsidebar h3.donation {
 /* -- body styles ----------------------------------------------------------- */
 
 a {
-    color: #004B6B;
+    color: #c2620a;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #6D4100;
+    color: #a0510a;
     text-decoration: underline;
 }
 
@@ -218,13 +218,13 @@ div.body h5 { font-size: 100%; }
 div.body h6 { font-size: 100%; }
 
 a.headerlink {
-    color: #DDD;
+    color: #c2620a;
     padding: 0 4px;
     text-decoration: none;
 }
 
 a.headerlink:hover {
-    color: #444;
+    color: #a0510a;
     background: #EAEAEA;
 }
 
@@ -298,7 +298,7 @@ div.important {
 }
 
 div.note {
-    background-color: #FFF59C;
+    background-color: #fef3e0;
     border: 1px solid #CCC;
 }
 
@@ -444,7 +444,7 @@ ul, ol {
 }
 
 pre {
-    background: unset;
+    background: #f9f5f0;
     padding: 7px 30px;
     margin: 15px 0px;
     line-height: 1.3em;
@@ -472,11 +472,11 @@ tt.xref, code.xref, a tt {
 
 a.reference {
     text-decoration: none;
-    border-bottom: 1px dotted #004B6B;
+    border-bottom: 1px dotted #c2620a;
 }
 
 a.reference:hover {
-    border-bottom: 1px solid #6D4100;
+    border-bottom: 1px solid #a0510a;
 }
 
 /* Don't put an underline on images */
@@ -488,18 +488,18 @@ a.footnote-reference {
     text-decoration: none;
     font-size: 0.7em;
     vertical-align: top;
-    border-bottom: 1px dotted #004B6B;
+    border-bottom: 1px dotted #c2620a;
 }
 
 a.footnote-reference:hover {
-    border-bottom: 1px solid #6D4100;
+    border-bottom: 1px solid #a0510a;
 }
 
 a:hover tt, a:hover code {
     background: #EEE;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1400px) {
 
     body {
         margin: 0;
