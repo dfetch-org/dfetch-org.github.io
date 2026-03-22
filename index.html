@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta content="Dfetch vendors source code from Git and SVN repositories directly into your project. No submodules, no lock-in, fully self-contained." name="description" />
-<meta content="dfetch, dependency management, vendoring, git, svn, embedded development, source-only dependencies, multi-repo, supply chain, sbom, license compliance" name="keywords" />
+<meta content="Dfetch vendors source code from Git or SVN repositories or plain archives directly into your project. No submodules, no lock-in, fully self-contained." name="description" />
+<meta content="dfetch, dependency management, vendoring, git, svn, archive, embedded development, source-only dependencies, multi-repo, supply chain, sbom, license compliance" name="keywords" />
 <meta content="Dfetch Contributors" name="author" />
 <meta content="rXUIdonVCg6XtZUDdOd7fJdSNj3bOoJJRqCFn3OVb04" name="google-site-verification" />
 
@@ -58,8 +58,8 @@
 <h1 class="sd-d-none">Dfetch<a class="headerlink" href="#dfetch" title="Link to this heading">¶</a></h1>
 <p><strong>Vendor dependencies without the pain.</strong></p>
 <p><strong>Dfetch</strong> copies source code directly into your project — no Git submodules, no SVN externals,
-no hidden external links. Dependencies live as plain, readable files inside your own repository.
-You stay in full control of every line.</p>
+no hidden external links. Fetch from Git, SVN, or plain archive URLs. Dependencies live as plain,
+readable files inside your own repository. You stay in full control of every line.</p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
 <div class="sd-col sd-d-flex-column docutils">
@@ -164,8 +164,8 @@ Python / pip</div>
 <div class="sd-card-body docutils">
 <div class="sd-card-title sd-font-weight-bold docutils">
 <svg version="4.0.0.63c5cb3" width="2.0em" height="2.0em" class="sd-material-icon sd-material-icon-shuffle" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"></path></svg> Any VCS, mixed freely</div>
-<p class="sd-card-text">Works with <strong>Git and SVN</strong> — even mixed in the same project.
-The only dependency manager that bridges both without compromise.</p>
+<p class="sd-card-text">Works with <strong>Git, SVN, and archive URLs</strong> — even mixed in the same project.
+The only dependency manager that bridges these without compromise.</p>
 </div>
 </div>
 </div>
@@ -280,8 +280,8 @@ specified, pins the version in <code class="docutils literal notranslate"><span 
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-1 sd-row-cols-lg-1 sd-g-0 sd-g-xs-0 sd-g-sm-0 sd-g-md-0 sd-g-lg-0 docutils">
 <div class="sd-col sd-d-flex-column docutils">
 <p><svg version="4.0.0.63c5cb3" width="1.5em" height="1.5em" class="sd-material-icon sd-material-icon-shuffle sd-text-primary" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"></path></svg> <strong>VCS-agnostic</strong></p>
-<p>Works seamlessly with <strong>Git and SVN</strong> — even mixed within the same project.
-Pin by tag, branch, revision, or exact commit hash. Adapt to your team’s workflow, not the other way around.</p>
+<p>Works seamlessly with <strong>Git, SVN, and archive URLs</strong> — even mixed within the same project.
+Pin by tag, branch, revision, commit hash, or cryptographic hash. Adapt to your team’s workflow, not the other way around.</p>
 </div>
 <div class="sd-col sd-d-flex-column docutils">
 <p><svg version="4.0.0.63c5cb3" width="1.5em" height="1.5em" class="sd-material-icon sd-material-icon-archive sd-text-primary" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0z" fill="none"></path><path d="M20.54 5.23l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.48-.17-.93-.46-1.27zM12 17.5L6.5 12H10v-2h4v2h3.5L12 17.5zM5.12 5l.81-1h12l.94 1H5.12z"></path></svg> <strong>Fully self-contained</strong></p>
@@ -633,7 +633,7 @@ No manual work, no lost history — start benefiting from dfetch’s workflow im
   targets.forEach(function (el) { observer.observe(el); });
 })();
 </script><div class="sd-text-left sd-text-muted sd-font-weight-light docutils">
-<p>Generated: 22 Mar 2026 at 20:16</p>
+<p>Generated: 22 Mar 2026 at 20:54</p>
 </div>
 </section>
 
